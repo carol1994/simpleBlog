@@ -2,8 +2,10 @@ const express = require('express')
 const router = express.Router()
 const checkLogin = require('../middlewares/checkLogin').checkLogin
 router.get('/', function(req, res) {
-    res.render('user', {
-        name: req.params.username
+    res.send({
+      status: 200,
+      message: 'ok',
+      data: 'index data'
     })
 })
 router.get('/list/:userId', checkLogin, function(req, res) {

@@ -23,4 +23,5 @@ package.json 项目依赖信息等
 
 ## 参考链接
 https://github.com/nswbmw/N-blog
-
+https://cli.vuejs.org/zh/guide/installation.html
+https://www.npmjs.com/package/vue-axios
