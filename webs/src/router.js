@@ -9,13 +9,19 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home
+      component: Home,
+      meta: {
+        title: '首页'
+      }
     },
     {
       path: '/signUp',
       name: 'signUp',
       component: function () {
         return import(/* webpackChunkName: "about" */ './views/SignUp.vue')
+      },
+      meta: {
+        title: 'Sign Up'
       }
     }
   ]

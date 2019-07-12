@@ -4,9 +4,9 @@ import router from './router'
 import store from './store'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
-import Mint from 'mint-ui';
+import Mint from 'mint-ui'
 import 'mint-ui/lib/style.css'
-Vue.use(Mint);
+Vue.use(Mint)
 Vue.use(VueAxios, axios)
 Vue.config.productionTip = false
 
